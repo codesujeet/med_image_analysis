@@ -2,5 +2,4 @@ streamlit
 python-dotenv
 google-generativeai
 python-dotenv
-
 scikit-learn==0.24.2
