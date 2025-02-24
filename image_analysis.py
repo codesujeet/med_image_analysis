@@ -3,7 +3,9 @@ from pathlib import Path
 import google.generativeai as genai
 
 
-## Streamlit App Configuration
+google_api_key = st.secrets["GOOGLE_API_KEY"]
+
+# Configure Generative AI Model
 genai.configure(api_key=google_api_key)
 
 # Generation config and safety settings remain the same
