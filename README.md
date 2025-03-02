@@ -24,11 +24,12 @@ Ensure you have the following software installed on your system:
 
 ### Step 1: Clone the Repository
 
-```bash
+
 git clone https://github.com/codesujeet/med-image-analysis.git
 cd medical-image-analysis-streamlit
 
-Step 2: Create a Virtual Environment (Optional but Recommended)
+
+### Step 2: Create a Virtual Environment (Optional but Recommended)
 bash
 Copy code
 python -m venv venv
@@ -37,9 +38,8 @@ Step 3: Install Dependencies
 Install the required libraries using pip:
 
 bash
-Copy code
 pip install -r requirements.txt
-Step 4: Run the Streamlit App
+## Step 4: Run the Streamlit App
 bash
 Copy code
 streamlit run app.py
@@ -77,7 +77,7 @@ scikit-learn
 To install them, run:
 
 bash
-Copy code
+
 pip install -r requirements.txt
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
